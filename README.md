@@ -29,27 +29,27 @@ It records all mouse and keyboard activity with precise per-event timing, and re
 
 # Record
 ```bash
-python3 macro.py record test.json
+python3 ghostkey.py record test.json
 ```
 
 # Record compact moves (keep only last move before clicks/keys)
 ```bash
-python3 macro.py record test.json -m off
+python3 ghostkey.py record test.json -m off
 ```
 
 # Playback
 ```bash
-python3 macro.py run test.json
+python3 ghostkey.py run test.json
 ```
 
 # Faster Playback
 ```bash
-python3 macro.py run test.json -s 1.5
+python3 ghostkey.py run test.json -s 1.5
 ```
 
 # Playback Without Overlay
 ```bash
-python3 macro.py run test.json -d none
+python3 ghostkey.py run test.json -d none
 ```
 
 ---
