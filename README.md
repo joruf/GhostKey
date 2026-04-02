@@ -9,19 +9,19 @@ It records all mouse and keyboard activity with precise per-event timing, and re
 
 ## Features
 
-- 🎙 Record all keyboard and mouse actions until you press ESC
+- Record all keyboard and mouse actions until you press ESC
 → You can control how mouse movements are stored using -m on|off:
   • -m on (default) – record all mouse movements with full precision
   • -m off – compact movements, keeping only the last move before each click or key event 
-- ▶️ **Run (play back)** the recorded macro in real-time or at custom speed (`-s`)
-- 💾 **JSON-based format** – easy to inspect and edit manually
-- ⏳ **Live countdown overlay** (bottom-right corner, enabled by default)  
+- **Run (play back)** the recorded macro in real-time or at custom speed (`-s`)
+- **JSON-based format** – easy to inspect and edit manually
+- **Live countdown overlay** (bottom-right corner, enabled by default)  
   Toggle it using `-d overlay` (default) or disable it with `-d none`
-- ⏳ **Live countdown overlay** (bottom-right corner) shows remaining runtime
-- 🚫 **Abort anytime** by pressing **ESC** during playback
-- 🔁 **Backward-compatible** with legacy macro files using `"t"` instead of `"dt"`
-- 🧩 **Auto-installs dependencies** if missing (best effort)
-- 🛡 **Cross-platform:** works on most Linux desktop environments, macOS, and Windows (with Python + Tk)
+- **Live countdown overlay** (bottom-right corner) shows remaining runtime
+- **Abort anytime** by pressing **ESC** during playback
+- **Backward-compatible** with legacy macro files using `"t"` instead of `"dt"`
+- **Auto-installs dependencies** if missing (best effort)
+- **Cross-platform:** works on most Linux desktop environments, macOS, and Windows (with Python + Tk)
 
 ---
 
