@@ -1,13 +1,13 @@
-# 🖱️ Keyboard & Mouse Macro Recorder / Runner for X11 & Desktop Systems
+# Keyboard & Mouse Macro Recorder / Runner for X11 & Desktop Systems
 
 A simple yet powerful **macro recorder and player** for Linux (X11) and other desktop systems using [pynput](https://pypi.org/project/pynput/).
 It records all mouse and keyboard activity with precise per-event timing, and replays them in real time (or at any adjustable speed).
 
-> ⚙️ The script runs entirely locally – no external servers, no telemetry, no dependencies beyond Python.
+> The script runs entirely locally – no external servers, no telemetry, no dependencies beyond Python.
 
 ---
 
-## ✨ Features
+## Features
 
 - 🎙 Record all keyboard and mouse actions until you press ESC
 → You can control how mouse movements are stored using -m on|off:
@@ -54,7 +54,7 @@ python3 ghostkey.py run test.json -d none
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Component | Purpose | Install via |
 |------------|----------|-------------|
@@ -63,7 +63,7 @@ python3 ghostkey.py run test.json -d none
 
 ---
 
-### 🧰 Manual Installation (all platforms)
+### Manual Installation (all platforms)
 
 #### 1. Core dependency
 ```bash
@@ -71,7 +71,7 @@ python3 -m pip install --upgrade pip
 python3 -m pip install pynput
 ```
 
-### 📦 Installation Requirements for the Timer Overlay
+### Installation Requirements for the Timer Overlay
 
 The overlay uses **Tkinter**. Install it once, depending on your platform:
 
