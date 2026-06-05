@@ -97,5 +97,13 @@ sudo zypper install -y python3-tk
 sudo pacman -S --noconfirm tk
 ```
 
+---
 
+## Usage
+
+```bash
+cd GhostKey
+git clone https://github.com/joruf/GhostKey.git
+chmod +x ghostkey.py
+./ghostkey.py
 
