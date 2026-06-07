@@ -102,8 +102,8 @@ sudo pacman -S --noconfirm tk
 ## Usage
 
 ```bash
-cd GhostKey
-git clone https://github.com/joruf/GhostKey.git
+git clone https://github.com/joruf/ghost-key.git
+cd ghost-key
 chmod +x ghostkey.py
 ./ghostkey.py
 
